@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ReactNode } from 'react';
 
 import { cn } from '@/lib/utils';
@@ -7,8 +6,6 @@ interface MainLayoutProps {
   children: ReactNode;
   className?: string;
 }
-
-const links = [{ slug: '/', label: 'Home' }];
 
 // This is the place responsible for wrapping your app.
 // Add here components like Footer, Nav etc.
